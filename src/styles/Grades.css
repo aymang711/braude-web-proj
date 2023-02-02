@@ -1,0 +1,151 @@
+.gradesP__container{
+    background-color: rgb(221,255,231);
+    width: 100%;
+    /* height: 81vh; */
+    background-image: url('../assests/images/ui-ux.png'); 
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 40px;
+   
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 45px 0;
+}
+
+.gradesP__container .assignment-list{
+    width:30%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgba(22, 125, 127,0.7);
+    padding-bottom: 20px;
+}
+.gradesP__container .assignment-list .search__box{
+  width:70%;
+  height:60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 0;
+  border-radius: 25px;
+  cursor: pointer;
+  background: whitesmoke;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+.gradesP__container .assignment-list .search__box input{
+  width: 70%;
+  background-color: whitesmoke;
+}
+.gradesP__container .assignment-list .assignment-name button{
+    width:70%;
+    height: 40px;
+    border:0;
+    border-radius: 30px;
+    margin: 2px 0;
+    padding: 4px;
+    
+}
+
+
+/*********************/
+.gradesP__container .grades-info{
+    width:50%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:flex-start;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgba(22, 125, 127,0.7);
+    padding-bottom: 20px;
+
+}
+.gradesP__container .grades-info table{
+    
+    width:300px;
+    color:whitesmoke;
+    outline: 0;
+    border:0;
+    
+   
+}
+.gradesP__container .grades-info table tbody tr{
+    
+
+    height: 20px;
+    border: 1px solid rgba(22, 125, 127,0.7);
+    border-radius: 3px;
+    
+   
+}
+.gradesP__container .grades-info table thead tr th{
+  color:white;
+}
+.gradesP__container .grades-info table tbody tr td{
+    background-color: whitesmoke;
+    height: 20px;
+    color:rgb(22, 125, 127) ;
+    
+    border: 2px solid rgb(118, 176, 177);
+    
+    
+    
+   
+}
+.gradesP__container .grades-info .avgTable{
+    width:30%;
+    
+
+}
+
+
+/*=======Media queries(Medium devices)=================*/
+@media only screen and (max-width:1024px){
+    .gradesP__container{
+      display: flex;
+      flex-direction: column;
+      
+      justify-content: center;
+      align-items: center;
+      padding-right: 50px;
+  
+    }
+    .gradesP__container .assignment-list{
+      width:80%;
+    }
+    .gradesP__container .grades-info{
+      width: 80%;
+    }
+}
+   /*=======Media queries(small devices)=================*/
+   @media only screen and (max-width: 600px){
+    .gradesP__container{
+      display: flex;
+      flex-direction: column;
+      
+      justify-content: center;
+      align-items: center;
+      padding-right: 50px;
+  
+    }
+    .gradesP__container .assignment-list{
+      width:80%;
+    }
+    .gradesP__container .grades-info{
+      width: 80%;
+    }
+  
+   }

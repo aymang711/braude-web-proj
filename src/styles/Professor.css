@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  section{
+    height: 70vh;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 2rem;
+    line-height: 50px;
+    font-family: "Poppins", sans-serif;
+    /* color: #6b7c78; */
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  p {
+    color: #596b65;
+    font-size: 1rem;
+    line-height: 35px;
+    font-family: "Andada Pro", serif;
+    font-weight: 400;
+  }
+  
+  /* CSS file */
+  .ProfessorPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .form__students {
+    width:50%;
+    height: 450px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   border: 0;
+   border-radius: 20px;
+   padding: 20px;
+   background: #167D7F;
+    
+  }
+  .list-students{
+    width:300px;
+  }
+  .form__students .list-Item{
+    width: 200px;
+    height: 40px; 
+   cursor: pointer;
+   border-radius: 20px;
+   
+   outline: 0;
+   border: 0;
+   text-align: center;
+   background-color: #fff;
+  }
+  .form-control {
+    background-color: off-white;
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .form-control:focus {
+    background-color: #FFFFFF;
+  }
+  
+  .list-group-item {
+    background-color: #167D7F;
+    color: #FFFFFF;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  /*******************************************/
+  .register-form{
+    width:50%;
+    height: 450px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   border: 0;
+   border-radius: 20px;
+   padding: 20px;
+   background: #167D7F;
+  }
+  .register-form input{
+    width:100%;
+    height: 40px; 
+   cursor: pointer;
+   border-radius: 20px;
+   outline: 0;
+   border: 0;
+   padding-left: 20px;
+  }
+  .select{
+    width: 100%;
+    height: 40px;
+   cursor: pointer;
+   border-radius: 20px;
+   color: #596b65;
+   outline: 0;
+   border: 0;
+   padding-right: 20px;
+   padding-left: 20px;
+  }
+  
+  .form-btn{
+    background: #fff;
+      color: #596b65;
+      padding: 7px 25px;
+      border-radius: 50px;
+      font-weight: 700;
+      cursor: pointer;
+      width: 90px;
+      height: 40px;
+      border: none;
+  }
+  .form-btn:hover{
+    background-color: #DDFFE7;
+    color: #596b65;
+  }
+  
+  /***********/
+  
+  .form__students .search__box{
+    width:350px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border: 0;
+     border-radius: 25px;
+     padding-right: 10px;
+     padding-left: 17px;
+     cursor: pointer;
+     background: #fff;
+  }
+  .search__box input{
+     width: 350px;
+     border: none;
+     outline: none;
+     padding: 8px 10px;
+  
+  }
+  .search__box span{
+     color: var(--primary-color);
+  
+  }
+  .form__students .students__name{
+    width:80%;
+  }
+  .form__students .students__name Button{
+    width: 100%;
+     margin-top: 8px;
+  }
+  

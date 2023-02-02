@@ -1,0 +1,93 @@
+
+section{
+  height: 81vh;
+  width: 100%;
+  background-image: url('../../assests/images/young-asia-businesswoman-use-smart-phone-with-blank-white-screen-while-smart-working-from-home-living-room.jpg');
+  background-size: cover; 
+  background-position: center;
+}
+
+
+.hero__content h2 {
+    font-weight: 700;
+    line-height: 20px;
+  
+  }
+  
+  .hero__content {
+    padding-top: 70px;
+    padding-left: 170px;
+    transform-origin: 100% 50%;
+    transform: rotateY(5deg);
+    
+  }
+
+  .hero__content .hero__title{
+    transform-origin: 100% 50%;
+    transform: rotateY(5deg);
+    color: #596b65;
+  
+  }
+  .hero__content .hero__title span{
+    transform-origin: 100% 50%;
+    transform: rotateY(5deg);
+    
+
+  }
+
+.hero-sec .hero__title{
+    line-height: 4.5rem;
+    word-spacing: 5px;
+  
+}
+.hero-text{
+    color:#167D7F ;
+    font-size: 3rem;
+  }
+.hero-sec .search input {
+    border: none;
+    outline: none;
+    padding: 8px 10%;
+    border-radius: 20px;
+  }
+  
+
+  .hero-sec img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .hero-sec .overlayInfo{
+    margin-top: 80px;
+    margin-left: 100px;
+    position: relative;
+    width: 300px;
+    height:300px;
+    background:rgba(255,255,255,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*=======Media queries(Medium devices)=================*/
+@media only screen and (max-width:1024px){
+  .hero-sec .overlayInfo{
+    display: none;
+  }
+  .hero__content{
+    display: none;
+  }
+}
+ /*=======Media queries(small devices)=================*/
+ @media only screen and (max-width: 600px){
+  .hero-sec .overlayInfo{
+    display: none;
+  }
+  .hero__content{
+    display: none;
+  }
+}
+
+
+

@@ -1,0 +1,110 @@
+.about__container{
+    background-color: rgb(220,242,231);
+    width: 100%;
+
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.about__container h1{
+    text-align: center;
+    color: #167D7F;
+
+}
+.about__container .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    justify-content: space-between;
+}
+.about__container .content .btn-contact{
+    background-color: #167D7F;
+    color: whitesmoke;
+    width:100px;
+    height: 50px;
+    border-radius: 25px;
+    border:0;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.about__container .content .btn-contact:hover{
+    color:#167D7F;
+    background-color: whitesmoke;
+}
+
+.about__container .imageAbout img{
+    width:500px;
+    height: 500px;
+    border-radius: 50%;
+}
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+
+}
+.about__card{
+    
+    background-color: rgba(218, 216, 216, 0.7);
+    box-shadow: 5px 5px 5px #9f9f9f;
+    color:#167D7F;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+
+}
+.about__card:hover{
+    background: transparent;
+    color:#167D7F; 
+}
+
+/***************************/
+.contact__options{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+.contact__option {
+  
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid #167D7F;
+    transition: var(--transition);
+}
+.contact__option:hover{
+    background: transparent;
+    border-color: transparent;
+}
+.contact__option-icon{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+
+}
+.contact__option a{
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+/*=======Media queries(Medium devices)=================*/
+@media only screen and (max-width:1024px){
+    .about__container .imageAbout{
+        display: none;
+    }
+}
+   /*=======Media queries(small devices)=================*/
+   @media only screen and (max-width: 600px){
+    .about__container .imageAbout{
+        display: none;
+    }
+   
+ 
+   }

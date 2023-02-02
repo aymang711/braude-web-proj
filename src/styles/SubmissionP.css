@@ -1,0 +1,175 @@
+.submissionP__container{
+    background-color: rgb(221,255,231);
+    width: 100%;
+    /* height: 81vh; */
+    background-image: url('../assests/images/ui-ux.png'); 
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 45px 0;
+
+}
+.submissionP__container .assignment-list{
+    width:25%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgba(22, 125, 127,0.7);
+    padding-bottom: 20px;  
+}
+/**/
+.submissionP__container .assignment-list .search__box,
+.submissionP__container .submission-list .search__box{
+    width:70%;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    background: whitesmoke;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+.submissionP__container .assignment-list .search__box input,
+.submissionP__container .submission-list .search__box input{
+    width: 70%;
+    background-color: whitesmoke;
+}
+
+.assignment-list .assignment-name,
+.submission-list .submission-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+  }
+  .assignment-list .assignment-name Button,
+  .submission-list .submission-name Button{
+    width: 70%;
+     margin-top: 8px;
+     border-radius: 20px;
+  }
+
+.submissionP__container .submission-list{
+    width:25%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgba(22, 125, 127,0.7);
+    padding-bottom: 20px; 
+
+}
+.submissionP__container .submission-info{
+    width:40%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgba(22, 125, 127,0.7);
+    padding-bottom: 20px; 
+
+}
+.submissionP__container .submission-info > div{
+    width:80%;
+}
+.submissionP__container .submission-info .sub-file{
+    width:55%;
+    height: 50px;
+    border-radius: 25px;
+    border:0;
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 10px;
+
+}
+.submissionP__container .submission-info > div input{
+   width:70%;
+   height: 50px;
+   border-radius: 25px;
+   border:0;
+   text-align: center;
+
+}
+.submissionP__container .submission-info .form-btn{
+    background-color: #167D7F!important;
+    color:white!important;
+    width:80px;
+    height: 40px;
+    border:0;
+    outline:0;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+  .submissionP__container .submission-info .form-btn:hover{
+    background-color:whitesmoke !important;
+    color:#167D7F!important;
+    border:0;
+    outline:0;
+  }
+  /*=======Media queries(Medium devices)=================*/
+@media only screen and (max-width:1024px){
+    .submissionP__container{
+      display: flex;
+      flex-direction: column;
+      
+      justify-content: center;
+      align-items: center;
+      padding-right: 50px;
+  
+    }
+    .submissionP__container .assignment-list{
+      width:80%;
+    }
+    .submissionP__container .submission-list{
+        width:80%;
+      }
+    .submissionP__container .submission-info{
+      width: 80%;
+    }
+}
+   /*=======Media queries(small devices)=================*/
+   @media only screen and (max-width: 600px){
+    .submissionP__container{
+      display: flex;
+      flex-direction: column;
+      
+      justify-content: center;
+      align-items: center;
+      padding-right: 50px;
+  
+    }
+    .submissionP__container .assignment-list{
+      width:80%;
+    }
+    .submissionP__container .submission-list{
+        width:80%;
+      }
+    .submissionP__container .submission-info{
+      width: 80%;
+    }
+  
+   }

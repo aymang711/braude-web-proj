@@ -1,0 +1,228 @@
+
+.courses__container{
+
+  /* background-color: rgb(221,255,231); */
+  width: 100%;
+  /* height: 81vh; */
+  background-image: url('../assests/images/ui-ux.png'); 
+  background-size: cover; 
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 40px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 45px 0;
+ 
+ 
+}
+
+.courses__container .courses-list {
+ width:30%;
+ height: 450px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 30px;
+ border-radius: 20px;
+ padding: 20px;
+ background: rgba(22, 125, 127,0.7);
+ padding-bottom: 20px;
+  
+}
+.courses__container .courses-list .search__box {
+  width:70%;
+  height:60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+  border-radius: 25px;
+  cursor: pointer;
+  background: whitesmoke;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+.courses__container .courses-list .search__box input{
+ width: 70%;
+   background-color: whitesmoke;
+
+}
+
+/* .courses__container .courses-list .form-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.courses__container .courses-list .form-list .student-button{
+  width:70%;
+  background: inherit;
+  border: 0;
+  outline: 0;
+  
+} */
+/* .courses__container .courses-list .form-list .list-students .btn-primary{
+  background-color: whitesmoke!important;
+  color: #167D7F!important;
+  width :100%;
+  height: 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  text-align: center;
+  border: 0;
+
+} */
+/* .courses__container .courses-list .form-list .student-button .btn-primary:hover{
+  background-color: #167D7F!important;
+  color: whitesmoke!important;
+
+} */
+.courses-list .form-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+.courses-list .form-list Button{
+  width:70%;
+  margin-top: 8px;
+  border-radius: 20px;
+  border: 0;
+}
+
+
+/*******************************************/
+.courses__container .register-form {
+ width:40%;
+ height: 450px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 30px;
+ border: 0;
+ border-radius: 20px;
+ background: rgba(22, 124, 126, 0.7);
+
+}
+
+
+.register-form .form-inputs .select{
+  width: 100%;
+ height: 40px;
+ cursor: pointer;
+ border-radius: 20px;
+ color: #596b65;
+ 
+ outline: 0;
+ border: 0;
+ padding-right: 20px;
+ padding-left: 20px;
+
+}
+.register-form h3{
+  padding-bottom: 30px;
+}
+.register-form .form-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control:focus {
+  background-color: whitesmoke;
+  padding-bottom: 20px;
+}
+
+.courses__container .form__students .students__name{
+  width:90%;
+}
+.courses__container .form__students .students__name Button{
+  width: 100%;
+   margin-top: 8px;
+}
+
+
+.courses__container .register-form .form-days .form-select{
+  border: 0;
+  border-radius: 20px;
+  background-color: #596b65;
+
+}
+.btn-primary{
+  background-color: #167D7F!important;
+  color:white!important;
+  border:0;
+  outline:0;
+}
+.btn-primary:hover{
+  background-color:whitesmoke !important;
+  color:#167D7F!important;
+  border:0;
+  outline:0;
+}
+
+
+/*=======Media queries(Medium devices)=================*/
+@media only screen and (max-width:1024px){
+  .courses__container{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    overflow: hidden;
+
+  }
+  .courses__container .courses-list{
+    width:80%;
+  }
+  .courses__container .register-form{
+    width: 80%;
+  }
+
+ /*=======Media queries(small devices)=================*/
+ @media only screen and (max-width: 600px){
+  .courses__container{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+
+  }
+  .courses__container .courses-list{
+    width:80%;
+  }
+  .courses__container .register-form{
+    width: 80%;
+  }
+
+ }
+}
+ .overlay {
+  position: absolute; 
+  top: 100px;
+  left: 0;
+  right: 0;
+  bottom:40px;
+  background-color: rgba(221,255,231,0.3)
+}
+
+.courses__container{
+
+  background-color: rgb(221,255,231);
+  width: 100%;
+  background-image: url('../assests/images/ui-ux.png'); /* Set the background image */
+  background-size: cover; 
+  background-position: center;
+  padding-left: 60px;
+}
+

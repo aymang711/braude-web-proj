@@ -1,0 +1,193 @@
+
+.students__container{
+  background-color: rgb(221,255,231);
+  width: 100%;
+  /* height: 81vh; */
+  background-image: url('../assests/images/ui-ux.png'); 
+  background-size: cover; 
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 40px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 45px 0;
+}
+.students-list {
+  width:30%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 20px;
+  background: rgba(22, 125, 127,0.7);
+  padding-bottom: 20px;
+  
+}
+
+.students-list .students__name .student-button{
+  background-color: rgb(254, 254, 254);
+}
+
+.students-list .students__name .student-button:focus{
+  background-color: #3f574f;
+  
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.students-list .students__name .student-button:hover{
+  background-color: #6f877f;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.students-list .students__name .student-button:focus{
+  background-color: #3f574f;
+}
+
+
+.students-list .search__box{
+  width:70%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border: 0;
+   border-radius: 25px;
+   padding-right: 10px;
+   padding-left: 17px;
+   cursor: pointer;
+   background: #fff;
+}
+.search__box input{
+   width: 70%;
+   border: none;
+   outline: none;
+   padding: 8px 10px;
+
+}
+
+.students-list .students__name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+.students-list .students__name Button{
+  width: 70%;
+   margin-top: 8px;
+   border-radius: 20px;
+   border: 0;
+}
+
+
+
+
+
+
+
+
+/*******************************************/
+.register-form{
+  width:40%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 20px;
+  background: rgba(22, 125, 127,0.7);
+  padding-bottom: 20px;
+}
+
+.register-form .form-inputs{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap:20px;
+}
+
+.register-form .form-inputs input{
+  width:100%;
+  height: 40px; 
+ cursor: pointer;
+ border-radius: 20px;
+ outline: 0;
+ border: 0;
+
+}
+.register-form .form-inputs input FormGroup{
+  width:80%;
+}
+
+.register-form .form-btn{
+  width:90px;
+  border-radius: 20px;
+}
+
+
+.register-form .form-btn:hover{
+  background: #3f574f;
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 50px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+
+
+
+/***********/
+
+/*=======Media queries(Medium devices)=================*/
+@media only screen and (max-width:1024px){
+  .students__container{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    overflow: hidden;
+
+  }
+  .students__container .students-list{
+    width:80%;
+  }
+  .students__container .register-form{
+    width: 80%;
+  }
+}
+
+ /*=======Media queries(small devices)=================*/
+ @media only screen and (max-width: 600px){
+  .students__container{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+
+  }
+  .students__container .students-list{
+    width:80%;
+  }
+  .students__container .register-form{
+    width: 80%;
+  }
+
+ }
